@@ -1,14 +1,21 @@
 # Part 1 – Database and ETL Pipeline
 
 ## Overview
-This part of the project focuses on building an ETL (Extract, Transform, Load) pipeline for the FlexiMart retail system. Raw CSV files are cleaned, validated, and loaded into a MySQL database using Python and Jupyter Notebook.
+
+This phase of the project involves developing an ETL (Extract, Transform, Load) pipeline for the FlexiMart retail system. The process includes cleaning, validating, and transforming raw CSV data before loading it into a MySQL database using Python and Jupyter Notebook.
+
 
 ## Objectives
-- Extract raw customer, product, and sales data
-- Clean and validate data for consistency and accuracy
-- Load structured data into MySQL tables
-- Generate a data quality report
-- Execute business-related SQL queries
+
+- Extract raw customer, product, and sales datasets
+
+- Clean, validate, and standardize data to ensure consistency and accuracy
+
+- Load transformed data into structured MySQL database tables
+
+- Produce a comprehensive data quality assessment report
+
+- Execute SQL queries to support business analysis and decision-making
 
 ## Files Description
 - `etl_pipeline.ipynb` – Jupyter Notebook with step-by-step ETL implementation
