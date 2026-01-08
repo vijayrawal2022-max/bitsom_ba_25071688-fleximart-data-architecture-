@@ -23,12 +23,18 @@ The FlexiMart Data Architecture Project presents the end-to-end development of a
 
 
  # Technologies Used
-Programming Language:Python 3.x, pandas
-Development Environment:Jupyter Notebook
-Libraries: pandas, mysql-connector-python
-Relational Database:MySQL 8.0.44 (arm64)
-NoSQL Database:MongoDB 8.0
-Data Warehouse Modeling:Star Schema
+ 
+Programming Stack: Python 3.x with pandas
+
+Development Platform: Jupyter Notebook environment
+
+Core Libraries: pandas, mysql-connector-python
+
+Relational Database System: MySQL version 8.0.44 (arm64)
+
+NoSQL Data Store: MongoDB version 8.0
+
+Data Warehouse Design: Star schema–based dimensional modeling
 
 
 # SETUP INSTRUCTIONS
@@ -56,16 +62,16 @@ mongod < part2-nosql/mongodb_operations.js
 
 ## Key Learnings
 
-Through this project, I learned how to design and implement an end-to-end data architecture system. I gained practical experience in ETL pipeline development, data quality validation, and writing optimized SQL queries. The project also helped me understand the differences between relational and NoSQL databases, as well as the importance of star schema modeling for analytical workloads.
+Through this project, I developed a strong understanding of building a complete data architecture from start to finish. I gained hands-on experience creating ETL pipelines, performing data validation and quality checks, and writing efficient SQL queries. Additionally, the project helped me clearly understand the differences between relational and NoSQL databases and highlighted the importance of using star schema design for analytical and reporting purposes.
 
 ## Challenges Faced
 
-1. Handling inconsistent and missing data:
-Solved by implementing validation checks and cleaning logic during the ETL process.
+Managing inconsistent and incomplete data:
+This challenge was resolved by applying data validation rules and cleaning mechanisms within the ETL workflow.
 
-2. Designing an effective data warehouse schema:
-Addressed by applying star schema principles to simplify analytical queries and improve performance.
+Creating an efficient data warehouse structure:
+This was addressed by adopting star schema design principles to enhance query simplicity and analytical performance.
 
 ### Conclusion
 
-This project demonstrates my ability to design and implement an end-to-end data architecture using relational databases, NoSQL systems, and a data warehouse. I worked hands-on with ETL pipelines, data validation, and analytical reporting using real-world retail data. Overall, the project strengthened my practical understanding of data engineering concepts and prepared me to handle structured and semi-structured data in business environments.
+This project showcases my ability to design and implement a complete data architecture incorporating relational databases, NoSQL systems, and a data warehouse. I gained hands-on experience building ETL pipelines, performing data validation, and generating analytical reports using real-world retail data. Overall, the project enhanced my practical understanding of core data engineering concepts and prepared me to work effectively with both structured and semi-structured data in business environments.
