@@ -1,38 +1,38 @@
-Part 1 – Database and ETL Pipeline
+Part 1 – Database & ETL Pipeline
 Overview
 
-This phase of the project involves designing and implementing an ETL (Extract, Transform, Load) pipeline for the FlexiMart retail system. The pipeline processes raw CSV files by cleaning, validating, and transforming the data before loading it into a MySQL database. The entire workflow is implemented using Python within a Jupyter Notebook environment.
+This module implements an ETL (Extract, Transform, Load) pipeline for the FlexiMart retail system. Raw CSV files are cleaned, validated, and loaded into a MySQL database using Python.
 
 Objectives
 
-Extract raw customer, product, and sales data from CSV files
+Extract customer, product, and sales data
 
-Clean and validate data to ensure accuracy, consistency, and completeness
+Clean and validate raw datasets
 
-Load the transformed data into structured MySQL database tables
+Load processed data into MySQL tables
 
-Generate a comprehensive data quality report
+Generate a data quality report
 
-Execute SQL queries to answer key business questions
+Run business SQL queries
 
-File Descriptions
+Files Included
 
-etl_pipeline.ipynb – Jupyter Notebook containing the step-by-step ETL implementation
+etl_pipeline.ipynb – ETL implementation in Jupyter Notebook
 
-etl_pipeline.py – Python script version of the ETL pipeline
+etl_pipeline.py – Python ETL script
 
-schema_documentation.md – Documentation of the database schema and table structures
+schema_documentation.md – Database schema details
 
-business_queries.sql – SQL queries designed to answer business-related questions
+business_queries.sql – Business analysis queries
 
-data_quality_report.txt – Summary report of data quality checks and validation results
+data_quality_report.txt – Data quality summary
 
-requirements.txt – List of Python libraries required to run the ETL process
+requirements.txt – Required Python packages
 
 How to Run
 
-Start the MySQL server and create the required database.
+Create the MySQL database.
 
-Install the necessary dependencies using the following command:
+Install dependencies:
 
 pip install -r requirements.txt
