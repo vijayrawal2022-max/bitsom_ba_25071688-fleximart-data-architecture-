@@ -1,24 +1,29 @@
 
 
-## 1. Entity\'96Relationship Description\
-\
-### ENTITY: customers\
-Purpose: Stores customer details extracted and cleaned from customers.csv.\
-\
-Attributes:\
-- customer_id: Unique identifier for each customer (Primary Key)\
-- first_name: Customer first name\
-- last_name: Customer last name\
-- email: Customer email address (Unique)\
-- phone: Contact number\
-- city: City of residence\
-- registration_date: Customer registration date\
-\
-Relationships:\
-- One customer can place many orders (1:M with orders table)\
-\
----\
-\
+## Entity–Relationship Description
+## Entity: Customers
+
+# Purpose:
+- This entity stores customer details that are extracted, cleaned, and standardized from the customers.csv source file.
+
+## Attributes:
+
+- customer_id – Unique identifier for each customer (Primary Key)
+
+- first_name – Customer’s given name
+
+- last_name – Customer’s surname
+
+- email – Customer’s email address (Unique)
+
+- phone – Customer contact number
+
+- city – Customer’s city of residence
+
+- registration_date – Date of customer registration
+
+# Relationships: A single customer can place multiple orders, establishing a one-to-many relationship with the orders table
+
 ### ENTITY: products\
 Purpose: Stores product details extracted and cleaned from products.csv.\
 \
@@ -68,11 +73,10 @@ Relationships:\
 
 ## 2. Normalization Explanation
 
-The database schema is designed following Third Normal Form (3NF) principles to ensure data integrity and minimize redundancy.
+The database schema is designed in accordance with Third Normal Form (3NF) principles to ensure data integrity and reduce redundancy. Each table contains a primary key that uniquely identifies every record, and all non-key attributes are fully functionally dependent on that primary key. For instance, customer-related attributes depend solely on customer_id, while product-related attributes depend only on product_id. Since no composite primary keys are used, partial dependencies are eliminated.
 
-Each table has a primary key that uniquely identifies records, and all non-key attributes are fully functionally dependent on the primary key. For example, customer details depend only on customer_id, and product attributes depend only on product_id. There are no partial dependencies because no composite primary keys are used.
+Transitive dependencies are avoided by organizing data into well-defined, separate tables. Order-related information is maintained in the orders table, product details are stored in the products table, and individual order line items are captured in the order_items table. This structure prevents the repetition of product information across orders and supports efficient data management and scalability.
 
-Transitive dependencies are avoided by separating data into distinct tables. Order information is stored in the orders table, while product details are stored in the products table. Order item details are stored in a separate order_items table, ensuring that product information is not repeated for each order.
 
 Functional dependencies include:
 - customer_id → customer attributes
