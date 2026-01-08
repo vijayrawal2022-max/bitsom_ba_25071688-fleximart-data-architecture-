@@ -1,5 +1,5 @@
 Part 1 – Database & ETL Pipeline
-Overview
+OvervieW
 
 This module implements an ETL (Extract, Transform, Load) pipeline for the FlexiMart retail system. Raw CSV files are cleaned, validated, and loaded into a MySQL database using Python.
 
