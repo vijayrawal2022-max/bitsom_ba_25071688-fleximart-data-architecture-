@@ -47,7 +47,7 @@ mysql -u root -p -e "CREATE DATABASE fleximart_dw;"
 # Run Part 1 - ETL Pipeline
 python part1-database-etl/etl_pipeline.py
 
-# Run Part 1 - Business Queries
+# Run Part 2 - Business Queries
 mysql -u root -p fleximart < part1-database-etl/business_queries.sql
 
 # Run Part 3 - Data Warehouse
