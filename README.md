@@ -1,13 +1,28 @@
-vijayrawal2022-max-bitsom_ba_25071815-fleximart-data-architecture
+# vijayrawal2022-max-bitsom_ba_25071815-fleximart-data-architecture
 Student Name: Vijay Rawal Student ID: bitsom_ba_25071688 Email: vijayrawal2022@gmail.com Date: 8/1/2026
 
-Project Overview
-The FlexiMart Data Architecture Project demonstrates the design and implementation of a complete data system for a retail business. The project covers relational database ETL processing, NoSQL data handling using MongoDB, and a data warehouse built using a star schema for analytical reporting. It showcases how raw transactional data can be transformed, validated, stored, and analyzed efficiently.
+# Project Overview
+The FlexiMart Data Architecture Project presents the end-to-end development of a scalable data solution for a retail organization. The project includes ETL workflows for relational databases, NoSQL data management using MongoDB, and the construction of a star-schema-based data warehouse to support analytical reporting. It highlights the process of converting raw transactional data into clean, structured, and analysis-ready datasets for effective business insights.
 
-Repository Structure
-├── part1-database-etl/ │ ├── etl_pipeline.py │ ├── schema_documentation.md │ ├── business_queries.sql │ └── data_quality_report.txt ├── part2-nosql/ │ ├── nosql_analysis.md │ ├── mongodb_operations.js │ └── products_catalog.json ├── part3-datawarehouse/ │ ├── star_schema_design.md │ ├── warehouse_schema.sql │ ├── warehouse_data.sql │ └── analytics_queries.sql └── README.md
+# Repository Structure
+├── part1-database-etl/
+│   ├── etl_pipeline.py
+│   ├── schema_documentation.md
+│   ├── business_queries.sql
+│   └── data_quality_report.txt
+├── part2-nosql/
+│   ├── nosql_analysis.md
+│   ├── mongodb_operations.js
+│   └── products_catalog.json
+├── part3-datawarehouse/
+│   ├── star_schema_design.md
+│   ├── warehouse_schema.sql
+│   ├── warehouse_data.sql
+│   └── analytics_queries.sql
+└── README.md
 
-Technologies Used
+
+ # Technologies Used
 Programming Language: Python 3.x, pandas
 Development Environment: Jupyter Notebook
 Libraries: pandas, mysql-connector-python
@@ -16,8 +31,8 @@ NoSQL Database: MongoDB 8.0
 Data Warehouse Modeling: Star Schema
 
 
-SETUP INSTRUCTIONS
-DATABASE SETUP
+# SETUP INSTRUCTIONS
+# DATABASE SETUP
 
 # Create databases
 mysql -u root -p -e "CREATE DATABASE fleximart;"
