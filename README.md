@@ -66,12 +66,12 @@ Through this project, I developed a strong understanding of building a complete 
 
 ## Challenges Faced
 
-Managing inconsistent and incomplete data:
+- Managing inconsistent and incomplete data:
 This challenge was resolved by applying data validation rules and cleaning mechanisms within the ETL workflow.
 
-Creating an efficient data warehouse structure:
+- Creating an efficient data warehouse structure:
 This was addressed by adopting star schema design principles to enhance query simplicity and analytical performance.
 
 ### Conclusion
 
-This project showcases my ability to design and implement a complete data architecture incorporating relational databases, NoSQL systems, and a data warehouse. I gained hands-on experience building ETL pipelines, performing data validation, and generating analytical reports using real-world retail data. Overall, the project enhanced my practical understanding of core data engineering concepts and prepared me to work effectively with both structured and semi-structured data in business environments.
+- This project showcases my ability to design and implement a complete data architecture incorporating relational databases, NoSQL systems, and a data warehouse. I gained hands-on experience building ETL pipelines, performing data validation, and generating analytical reports using real-world retail data. Overall, the project enhanced my practical understanding of core data engineering concepts and prepared me to work effectively with both structured and semi-structured data in business environments.
