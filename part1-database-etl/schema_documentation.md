@@ -24,41 +24,53 @@
 
 # Relationships: A single customer can place multiple orders, establishing a one-to-many relationship with the orders table
 
-### ENTITY: products\
-Purpose: Stores product details extracted and cleaned from products.csv.\
-\
-Attributes:\
-- product_id: Unique product identifier (Primary Key)\
-- product_name: Name of the product\
-- category: Product category\
-- price: Product price\
-- stock_quantity: Available stock\
-\
-Relationships:\
-- One product can appear in multiple order items (1:M with order_items)\
-\
----\
-\
-### ENTITY: orders\
-Purpose: Stores order-level information derived from sales.csv.\
-\
-Attributes:\
-- order_id: Unique identifier for each order (Primary Key)\
-- customer_id: Customer placing the order (Foreign Key)\
-- order_date: Date of order\
-- total_amount: Total order value\
-- status: Order status\
-\
-Relationships:\
-- Each order belongs to one customer\
-- Each order can contain many order items\
-\
----\
-\
-### ENTITY: order_items\
-Purpose: Stores item-level order details derived from sales.csv.\
-\
-Attributes:\
+# Entity: Products
+
+# Purpose:
+Stores product information that has been extracted, cleaned, and standardized from the products.csv file.
+
+## Attributes:
+
+- product_id – Unique identifier for each product (Primary Key)
+
+- product_name – Name of the product
+
+- category – Product category
+
+- price – Unit price of the product
+
+- stock_quantity – Available inventory quantity
+
+## Relationships:
+
+A single product can be associated with multiple order items (one-to-many relationship with the order_items table)
+
+## Entity: Orders
+
+# Purpose:
+- Stores order-level details derived from the sales.csv dataset.
+
+# Attributes:
+
+- order_id – Unique identifier for each order (Primary Key)
+
+- customer_id – Identifier of the customer who placed the order (Foreign Key)
+
+- order_date – Date on which the order was placed
+
+- total_amount – Total monetary value of the order
+
+- status – Current status of the order
+
+# Relationships:
+
+- Each order is linked to exactly one customer (many-to-one relationship with the customers table)
+
+- Each order can include multiple order items (one-to-many relationship with the order_items table)
+
+### ENTITY: order_items
+Purpose: Stores item-level order details derived from sales.csv.
+Attributes:
 - order_item_id: Unique identifier (Primary Key)\
 - order_id: Order reference (Foreign Key)\
 - product_id: Product reference (Foreign Key)\
