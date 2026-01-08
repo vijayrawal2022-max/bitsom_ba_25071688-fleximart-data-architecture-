@@ -38,9 +38,9 @@ Data Warehouse Design: Star schema–based dimensional modeling
 
 
 # SETUP INSTRUCTIONS
-# DATABASE SETUP
+#DATABASE SETUP
 
-# Create databases
+#create databases
 mysql -u root -p -e "CREATE DATABASE fleximart;"
 mysql -u root -p -e "CREATE DATABASE fleximart_dw;"
 
