@@ -23,12 +23,12 @@ The FlexiMart Data Architecture Project presents the end-to-end development of a
 
 
  # Technologies Used
-Programming Language: Python 3.x, pandas
-Development Environment: Jupyter Notebook
+Programming Language:Python 3.x, pandas
+Development Environment:Jupyter Notebook
 Libraries: pandas, mysql-connector-python
-Relational Database: MySQL 8.0.44 (arm64)
-NoSQL Database: MongoDB 8.0
-Data Warehouse Modeling: Star Schema
+Relational Database:MySQL 8.0.44 (arm64)
+NoSQL Database:MongoDB 8.0
+Data Warehouse Modeling:Star Schema
 
 
 # SETUP INSTRUCTIONS
