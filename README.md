@@ -62,7 +62,7 @@ mongod < part2-nosql/mongodb_operations.js
 
 ## Key Learnings
 
-Through this project, I developed a strong understanding of building a complete data architecture from start to finish. I gained hands-on experience creating ETL pipelines, performing data validation and quality checks, and writing efficient SQL queries. Additionally, the project helped me clearly understand the differences between relational and NoSQL databases and highlighted the importance of using star schema design for analytical and reporting purposes.
+- Through this project, I developed a strong understanding of building a complete data architecture from start to finish. I gained hands-on experience creating ETL pipelines, performing data validation and quality checks, and writing efficient SQL queries. Additionally, the project helped me clearly understand the differences between relational and NoSQL databases and highlighted the importance of using star schema design for analytical and reporting purposes.
 
 ## Challenges Faced
 
