@@ -1,0 +1,12 @@
+
+---
+
+# Part 1 – requirements.txt  
+File: `part1-database-etl/requirements.txt`
+
+```txt
+pandas
+numpy
+mysql-connector-python
+sqlalchemy
+jupyter
