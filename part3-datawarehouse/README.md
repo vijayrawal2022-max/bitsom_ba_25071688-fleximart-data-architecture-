@@ -1,15 +1,18 @@
 
 # Part 3 – Data Warehouse and Analytics
+# Overview
 
-## Overview
-This part focuses on designing and implementing a data warehouse for analytical reporting. A star schema model is used to support efficient querying and business intelligence operations.
+This phase of the project involves the design and implementation of a data warehouse to support analytical reporting and business intelligence. A star schema model is employed to enable efficient querying, aggregation, and analytical processing.
 
-## Objectives
-- Design a star schema for analytical workloads
-- Create fact and dimension tables
-- Load transformed data into the warehouse
-- Perform OLAP and analytical queries
+# Objectives
 
+- Design a star schema optimized for analytical workloads
+
+- Develop fact and dimension tables
+
+- Load transformed and curated data into the data warehouse
+
+- Perform OLAP operations and analytical queries for reporting and insights
 ## Files Description
 - `star_schema_design.md` – Explanation of star schema design
 - `warehouse_schema.sql` – SQL script to create warehouse tables
